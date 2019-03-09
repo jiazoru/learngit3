@@ -3,3 +3,6 @@
 3.git commit [文件名] -m "理由"     将文件提交至本地仓库
 4.git status                      查看工作区状态文件有没有被修改过
 5.git diff [文件名]                查看具体文件的修改内容
+6.git log                         查看当前库的提价记录
+7.git log --pretty=oneline        查看当前库的提交记录（简易版）
+8.git reset --hard [版本号 或者 HEAD^]  跳到某个版本
