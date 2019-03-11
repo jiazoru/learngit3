@@ -6,3 +6,19 @@
 6.git log                         查看当前库的提价记录
 7.git log --pretty=oneline        查看当前库的提交记录（简易版）
 8.git reset --hard [版本号 或者 HEAD^]  跳到某个版本
+暂存区和分支的区别
+git checkout -- [文件名]   恢复文件    1.若为提交只暂存区  则与当前分支同步    若提交至暂存区   则恢复至提交至暂存区之前
+    注意  --一定要加
+创建SSH Key：ssh-keygen -t rsa -C "jia_zoru@163.com"
+git remote add origin git@github.com:michaelliao/learngit.git     关联远程库
+git push -u origin master           第一次推送本地库
+git clone git@github.com:michaelliao/gitskills.git                  从远程库克隆本地库
+
+
+分支
+
+   1.git checkout -b [分支名]       git checkout命令加上-b参数表示创建并切换，相当于以下两条命令
+     1.git branch [分支名]          创建分支
+     2.git checkout [分支名]        切换分支
+   2.git branch                    查看分支
+
