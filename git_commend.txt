@@ -22,4 +22,4 @@ git clone git@github.com:michaelliao/gitskills.git                  从远程库
      2.git checkout [分支名]        切换分支
    2.git branch                    查看分支
    3.git branch -d [分支名]         删除分支
-
+   4..............
