@@ -22,4 +22,13 @@ git clone git@github.com:michaelliao/gitskills.git                  从远程库
      2.git checkout [分支名]        切换分支
    2.git branch                    查看分支
    3.git branch -d [分支名]         删除分支
+   4.git log                       查看分支合并情况
+   5.git log --graph               查看分支合并图
+   6.git stash                     Git还提供了一个stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+   7.git stash pop                 当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop，回到工作现场
+
+
+
+   Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容
+
 
