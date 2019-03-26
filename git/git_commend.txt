@@ -13,7 +13,7 @@ git checkout -- [文件名]   恢复文件    1.若为提交只暂存区  则与
 git remote add origin git@github.com:michaelliao/learngit.git     关联远程库
 git push -u origin master           第一次推送本地库
 git clone git@github.com:michaelliao/gitskills.git                  从远程库克隆本地库
-
+gi
 
 分支
 
@@ -28,8 +28,10 @@ git clone git@github.com:michaelliao/gitskills.git                  从远程库
    7.git stash pop                 当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop，回到工作现场
    8.git remote -v                 查看远程库的详细信息
    9.git pull [远程分支] [本地分支]                       抓取分支
-   10.it branch --set-upstream-to=origin/dev dev        链接远程分支与本地分支
+   10.git branch --set-upstream-to=origin/dev dev        链接远程分支与本地分支
    11.git tag [text] [commitId]    没有commitId 为给当前分支打标签   没有text并且没有commitId 为查看当前分支的所有标签
 
-   Git用标记出不同分支的内容
+   1.Git用标记出不同分支的内容
+   2.通过.gitignore来忽略部分不需要提交的文件，忽略后 git status 将不会现实
+   3.git config --global alias.st status          通过配置别名来方便git命令的使用
 
